@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/laboratorio", consumes = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "/laboratorio")
 @Slf4j
 public class LaboratorioController {
     private final LaboratorioService laboratorioService;
